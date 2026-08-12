@@ -1,1 +1,1 @@
-These 2 folders contain the code for the websites at [https://dragonaere.email](https://dragonaere.email) and [https://mta-sts.dragonaere.email](https://mta-sts.dragonaere.email/.well-known/mta-sts.txt)
+These 2 folders contain the code for the websites at [https://dragonaere.email](https://dragonaere.email) and [https://mta-sts.dragonaere.email](https://mta-sts.dragonaere.email/.well-known/mta-sts.txt).
