@@ -1,0 +1,46 @@
+<!-- Yes, this is a hand written HTML file -->
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>About  - DES</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/index.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>About</h1>
+      <nav style="display: flex;align-items: center;gap: 3px;">
+        <a href="/index.html">
+          <div style="padding: 4px 12px;">Home</div>
+        </a>
+        <a href="/status.html">
+          <div style="padding: 4px 12px;">Status</div>
+        </a>
+        <a href="/blacklist.html">
+          <div style="padding: 4px 12px;">Blocklist Check</div>
+        </a>
+        <a href="/config.html">
+          <div style="padding: 4px 12px;">Configuration</div>
+        </a>
+        <a href="/about.html">
+          <div style="padding: 4px 12px;">About</div>
+        </a>
+        <a href="/contact.php">
+          <div style="padding: 4px 12px;">Contact</div>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <p>This is the email server used by <a href="https://thisisandrews.link/blog">Andrew</a> for all of his different stuff.</p>
+      <p>It is hosted using <a href="https://www.proxmox.com/en/products/proxmox-mail-gateway/overview">Proxmox Mail Gateway</a> for Security and filtering. It uses widely used and battletested software under the hood to make sure all emails that are recieved are from legitimate sources.</p>
+      <p>Mail that passes the various tests are forwarded to a different mail server running <a href="https://maddy.email">Maddy</a> which handles tasks like confirming the mailbox exists, IMAP and SMTP Submission. It also is the authentication source for both IMAP and SMTP.</p>
+      <p>If you're a friend of mine and want to host your email through this server, reach out to me privately.</p>
+    </main>
+    <footer style="width: 100%;position: absolute;bottom: 0;display: flex;gap: 20px">
+      <p>© 2026 Dragonaere Enterprises</p>
+      <p style="font-weight: bold;"> — </p>
+      <p style="font-style: italic;">Powered by <a href="https://www.proxmox.com/en/products/proxmox-mail-gateway/overview">Proxmox Mail Gateway</a> and <a href="https://maddy.email">Maddy</a>.</p>
+    </footer>
+  </body>
+</head>

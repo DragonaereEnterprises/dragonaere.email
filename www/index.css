@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark light;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  @media (prefers-color-scheme: light) {
+    background: #fff;
+    color: #000;
+  }
+}
+
+input[type=text], input[type=email] {
+  width: 180px;
+}
+
+textarea {
+  width: 382px;
+  height: 80px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #f46904;
+}
+a, a:visited {
+  color: #f46904;
+}
