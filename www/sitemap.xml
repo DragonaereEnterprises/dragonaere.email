@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://dragonaere.email/index.html</loc>
+  </url>
+  <url>
+    <loc>http://dragonaere.email/status.html</loc>
+  </url>
+  <url>
+    <loc>http://dragonaere.email/blacklist.html</loc>
+  </url>
+  <url>
+    <loc>http://dragonaere.email/config.html</loc>
+  </url>
+  <url>
+    <loc>http://dragonaere.email/about.html</loc>
+  </url>
+  <url>
+    <loc>http://dragonaere.email/contact.php</loc>
+  </url>
+</urlset>
