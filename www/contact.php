@@ -234,7 +234,7 @@ function checked(string $value, array $selected): string {
 <!doctype html>
 <html lang="en-US">
   <head>
-    <title>Contact</title>
+    <title>Contact - DES</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/index.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
