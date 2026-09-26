@@ -277,6 +277,13 @@ function checked(string $value, array $selected): string {
         <strong>Thank you!</strong> Your message has been sent successfully.
         A confirmation has also been emailed to you.
       </div>
+      <script>
+        if (typeof umami !== 'undefined') {
+          umami.track('contact-form-submission', {
+            reason: '<?= htmlspecialchars($old['reason'] ?? 'unknown', ENT_QUOTES, 'UTF-8') ?>'
+          });
+        }
+      </script>
       <?php endif; ?>
 
       <?php if (!empty($errors)): ?>
