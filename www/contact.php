@@ -4,7 +4,6 @@ declare(strict_types=1);
 session_start();
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require __DIR__ . '../../vendor/autoload.php';
@@ -246,6 +245,7 @@ function checked(string $value, array $selected): string {
       .spam-fields.visible { display:block; }
     </style>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script defer src="https://analytics.andrewstill.cloud/script.js" data-website-id="19db9fd2-efcf-4ccd-9de0-642b582b7aa9"></script>
   </head>
   <body>
     <header>
